@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/styl.css">
+
+    <link rel="stylesheet" href="assets/assets.css">
+    <link rel="stylesheet" href="assets/utils.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+
+    <title>Demo</title>
+</head>
+
+<body>
+    <nav class="navigation max-width-1 m-auto">
+        <div class="nav-left">
+            <a href="#">
+                <span>VBlog</span>
+            </a>
+
+            <ul>
+
+                <li><a href="#"> ABOUT</a></li>
+                <li><a href="#">SERVICE </a></li>
+                <li><a href="#">INFO</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">CONTACT</a></li>
+
+            </ul>
+        </div>
+
+    </nav>
+
+    <div id="aside">
+        <h2 class="sec1">Mauris id tellus convalls, <h2 class="sec">eleifend ipsum eget</h2>
+        </h2>
+        <h5 class="sec2">ELEIFEND IPSUM EGET, MARRIS TEMPUS LACUS</h5>
+        <p class="sec3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. voluptas dolores</p>
+    </div>
+
+
+
+
+    <div class="post-img max-width-1 m-auto">
+        <!-- <img src="assets/atric.jpg" alt="blogpost"> -->
+
+    </div>
+
+    <section>
+        <h1 class="head">LOREM IPSUM DOLOR SIT AMET</h1>
+        <p class="shead">consectetur adipisicing elit. voluptas dolores</p>
+
+    </section>
+
+
+    <div class="wrapper ">
+        <div class="carousel owl-carousel max-width-2">
+            <div class="card card-1">
+                A
+            </div>
+            <div class="card card-2">
+                B
+            </div>
+            <div class="card card-3">
+                C
+            </div>
+            <div class="card card-4">
+                D
+            </div>
+            <div class="card card-5">
+                E
+            </div>
+            <div class="card card-6">
+                E
+            </div>
+            <div class="card card-7">
+                E
+            </div>
+            <div class="card card-8">
+                E
+            </div>
+            <div class="card card-5">
+                E
+            </div>
+        </div>
+    </div>
+
+    <div class="home-articals max-width-1 m-auto" style="margin-bottom: 25px;">
+        <div class="row">
+            <div class="home-artical more-blog center">
+                <div class="home-artical-img">
+                    <img src="assets/b2.png" alt="artical" width="250" height="230">
+                </div>
+                <div class="home-artical-content">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+
+                    <div>Lorem ipsum dolor sit amet.</div>
+                </div>
+            </div>
+
+            <div class="home-artical more-blog center">
+                <div class="home-artical-img">
+                    <img src="assets/atric.jpg" alt="artical" width="250" height="230">
+                </div>
+                <div class="home-artical-content">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                    <div>Lorem ipsum dolor sit amet.</div>
+                </div>
+            </div>
+
+            <div class="home-artical more-blog center">
+                <div class="home-artical-img">
+                    <img src="assets/b3.png" alt="artical" width="250" height="230">
+                </div>
+                <div class="home-artical-content">
+                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                    <div>Lorem ipsum dolor sit amet.</div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+
+    <div class="home-arti max-width-1 m-auto">
+        <div class="row" style="margin-left: 20px;">
+            <div class="home-artical more-blogs center">
+                <div class="home-artical-img">
+                    <img src="assets/b3.png" alt="artical" width="280" height="230">
+                </div>
+                <div class="home-artical-content">
+                    <h3>Lorem ipsum dolor .</h3>
+                    <p>Lorem ipsum dolor sit amet </br> consectetur adipisicing elit. Ut, velit.</p>
+                </div>
+            </div>
+
+            <div class="home-artical more-blogs center" style="margin-left: 20px;">
+                <div class="home-artical-img">
+                    <img src="assets/b3.png" alt="artical" width="280" height="230">
+                </div>
+                <div class="home-artical-content">
+                    <h3>Lorem ipsum dolor .</h3>
+                    <p>Lorem ipsum dolor, sit amet</br> consectetur adipisicing elit. Ut, velit.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="footer ">
+
+        <p>copyright &copy; 2021 blog.com</p>
+
+    </div>
+
+    <script>
+        $(".carousel").owlCarousel({
+            margin: 20,
+            loop: true,
+            autoplay: true,
+            autoplayTimeout: 2000,
+            autoplayHoverPause: true,
+            responsive: {
+                0: {
+                    items: 1,
+                    nav: false
+                },
+                600: {
+                    items: 2,
+                    nav: false
+                },
+                1000: {
+                    items: 3,
+                    nav: false
+                }
+            }
+        });
+    </script>
+
+</body>
+
+</html>

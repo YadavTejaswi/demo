@@ -1,0 +1,64 @@
+body{
+    min-height: 100%;
+    align-items: center;
+  }
+  .wrapper{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .carousel{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 30px;
+  }
+  .carousel .card{
+    color: #fff;
+    text-align: center;
+    margin: 15px 0;
+    line-height: 250px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+  }
+  .carousel .card-1{
+    background: #ee979a;
+  }
+  .carousel .card-2{
+    background: #7cbae4;
+  }
+  .carousel .card-3{
+    background: #89e996;
+  }
+  .carousel .card-4{
+    background: #f1ab8b;
+  }
+  .carousel .card-5{
+    background: #e785e4;
+  }
+  .carousel .card-6{
+    background: #d8cffa;
+  }
+  .carousel .card-7{
+    background: #a3f3e8;
+  }
+  .carousel .card-8{
+    background: #e6f1a3;
+  }
+  .owl-dots{
+    text-align: center;
+    margin-top: 40px;
+  }
+  .owl-dot{
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    outline: none;
+    border-radius: 14px;
+    border: 2px solid #0072bc!important;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+    margin-bottom: 10px;
+  }
+  .owl-dot.active,
+  .owl-dot:hover{
+    background: #0072bc!important;
+  }

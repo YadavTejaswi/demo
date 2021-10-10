@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Source+Serif+Pro&family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root{
+    --font1: 'Source Serif Pro', serif;
+    --font2: 'Zen Tokyo Zoo', cursive;
+    --font3: 'Fira Sans', sans-serif;
+    --font4: 'Roboto', sans-serif;
+}
+.max-width-1{
+    max-width: 80vw;
+}
+
+.max-width-2{
+    max-width: 60vw;
+}
+.m-auto{
+    margin: auto;
+}
+.center{
+    text-align: center;
+}
